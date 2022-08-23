@@ -1,0 +1,24 @@
+ALL TESTED PARAMETERS APPEAR TO BE SQL INJECTABLE.
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.6.2#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting
+
+[WARNING] unable to create output directory '/srv/http/.local/share/sqlmap/output' ([Errno 13] Permission denied: '/srv/http/.local'). Using temporary directory '/tmp/sqlmapoutput4w68a58z' instead
+[WARNING] unable to create history directory '/srv/http/.local/share/sqlmap/history' ([Errno 13] Permission denied: '/srv/http/.local'). Using temporary directory '/tmp/sqlmaphistory02d66heq' instead
+
+[INFO] using 'STDIN' for parsing targets list
+[INFO] using '/tmp/sqlmapoutput4w68a58z/results-04282022_1259pm.csv' as the CSV results file in multiple targets mode
+[INFO] testing connection to the target URL
+[CRITICAL] connection timed out to the target URL or proxy. sqlmap is going to retry the request(s)
+[WARNING] if the problem persists please check that the provided target URL is reachable. In case that it is, you can try to rerun with switch '--random-agent'
+[ERROR] connection timed out to the target URL or proxy, skipping to the next target
+[INFO] you can find results of scanning in multiple targets mode inside the CSV file '/tmp/sqlmapoutput4w68a58z/results-04282022_1259pm.csv'
+
+[*] ending
